@@ -8,15 +8,24 @@
 @using (var form = Html.BeginForm())
 {
     <div class="form">
+
         <div>
-            @Html.TextBoxFor(m => m.UserName, new { placeholder = "UserName", @class = "form-input" })
+            @Html.TextBoxFor(m => m.UserName, new { placeholder = "userName", @class = "form-input" })
+        </div>
+        <div>
+            @Html.TextBoxFor(m => m.NickName, new { placeholder = "Nick Name", @class = "form-input" })
+        </div>
+        <div>
+            @Html.TextBoxFor(m => m.BirthDay, new { @type = "date", placeholder = "birthday" })
         </div>
         <div>
             @Html.TextBoxFor(m => m.Email, new { placeholder = "Email", @class = "form-input" })
         </div>
         <div>
             @Html.PasswordFor(m => m.Password, new { placeholder = "Password", @class = "form-input", @type = "password" })
+
         </div>
+        @Html.ValidationSummary()
         <input type="submit" value="Submit" />
     </div>
 
@@ -28,7 +37,13 @@
         .form {
             text-align: center;
             padding: 160px 0px 50px 0px;
+            
         }
+
+        .form li{
+            color: red;
+        }
+
     </style>
 }
 

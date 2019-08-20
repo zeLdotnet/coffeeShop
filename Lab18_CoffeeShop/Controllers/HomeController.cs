@@ -29,7 +29,14 @@ namespace Lab18_CoffeeShop.Controllers
         [HttpPost]    
         public IActionResult Register(RegisterUser newUser)
         {
-            return RedirectToAction("ShowRegistration", newUser);
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("ShowRegistration", newUser);
+            }
+            else
+            {
+                return View(newUser);
+            }
         }
         
         public IActionResult ShowRegistration(RegisterUser user)
