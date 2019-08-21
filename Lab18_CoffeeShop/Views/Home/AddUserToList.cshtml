@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "AddUserToList";
+}
+
+<h1>AddUserToList</h1>
+@model IEnumerable<Lab18_CoffeeShop.Models.RegisterUser>
+<table>
+    <tr>
+        <th>User Name</th>
+        <th>Nick Name</th>
+        @*<th>DOB</th>*@
+        <th>email</th>
+    </tr>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.UserName</td>
+            <td>@user.NickName</td>
+            @*<td>@user.BirthDay</td>*@
+            <td>@user.Email</td>
+        </tr>
+    }
+</table>
+

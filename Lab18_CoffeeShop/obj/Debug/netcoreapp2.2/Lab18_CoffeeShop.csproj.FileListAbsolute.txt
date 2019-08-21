@@ -30,3 +30,4 @@ C:\Users\zeL\grandCircus\labs\grandRepo\Lab18_CoffeeShop\Lab18_CoffeeShop\obj\De
 C:\Users\zeL\grandCircus\labs\grandRepo\Lab18_CoffeeShop\Lab18_CoffeeShop\obj\Debug\netcoreapp2.2\Lab18_CoffeeShop.csproj.CopyComplete
 C:\Users\zeL\grandCircus\labs\grandRepo\Lab18_CoffeeShop\Lab18_CoffeeShop\obj\Debug\netcoreapp2.2\Razor\Views\Home\Register.g.cshtml.cs
 C:\Users\zeL\grandCircus\labs\grandRepo\Lab18_CoffeeShop\Lab18_CoffeeShop\obj\Debug\netcoreapp2.2\Razor\Views\Home\ShowRegistration.g.cshtml.cs
+C:\Users\zeL\grandCircus\labs\grandRepo\Lab18_CoffeeShop\Lab18_CoffeeShop\obj\Debug\netcoreapp2.2\Razor\Views\Home\AddUserToList.g.cshtml.cs
